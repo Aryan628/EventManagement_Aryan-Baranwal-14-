@@ -1,0 +1,271 @@
+.box1{
+    background-image: url("./Photos/code.webp");
+    background-repeat: no-repeat;
+    height: 76vh;
+    text-align: center;
+}
+.navbar-dark .navbar-nav .nav-link.active {
+    color: green !important;
+ }
+.text1{
+    padding-top: 25vh;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+}
+.box2{
+    margin-bottom: 4vh;
+}
+.imag{
+    padding-left: 38%;
+    padding-top: 10vh;
+    width: 60vw;
+}
+.jv{
+    padding-left: 30%;
+    padding-top: 10vh;
+    width:  70vw;
+}
+.text2{
+    text-align: center;
+    color: white;
+}
+.b{
+    margin-top: 6vh;
+}
+.bt{
+    padding-top: 20vh;
+}
+/* enroll button */
+
+.glow { position: relative;
+    display: inline-block;
+    padding: 12px 32px;
+    color: black;
+    background: red;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 34px;
+    /* overflow: hidden; */
+    transition: 0.2s;
+    border-radius: 100px;
+    font-weight: 600;  
+ }
+ 
+ .glow:hover{color:yellow;
+    background:  green;
+    box-shadow: 0 0 10px  blue,0 0 40px blue,0 0 80px  blue;
+ }
+ 
+ .glow span{
+    position: absolute;
+    display: block;
+ }
+ /* top */
+ .glow span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(90deg, transparent, yellow );
+    display: block;
+ }
+ .glow:hover span:nth-child(1){
+    left:100%;
+    transition: 1s;
+    display: block;
+    
+ }
+ /* bottom */
+ .glow span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(270deg, transparent, yellow);
+    display: block;
+ }
+ .glow:hover span:nth-child(3){
+    right:100%;
+    transition: 1s;
+    /* transition-delay: 0.5s; */
+    display: block;
+    
+ }
+ 
+ /* right  */
+ .glow span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(180deg, transparent, yellow);
+    display: block;
+ }
+ .glow:hover span:nth-child(2){
+    top:100%;
+    transition: 1s;
+    display: block;
+    /* transition-delay: 0.25s; */
+    
+ }
+ /* left */
+ .glow span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(180deg, transparent, yellow);
+    display: block;
+ }
+ .glow:hover span:nth-child(4){
+    bottom:100%;
+    transition: 1s;
+    /* transition-delay: 0.75s; */
+    display: block;
+    
+ }
+ 
+ /* button end */
+ @media (min-width:360px) and (max-width:768px){
+    .glow span:nth-child(1){
+        display: none;
+     }
+     .glow span:nth-child(3){
+        display: none;
+     }
+     .glow span:nth-child(2){
+        display: none;
+     }
+     .glow span:nth-child(4){
+        display: none;
+     }
+     .glow:hover span:nth-child(1){
+        display: none;  
+     }
+     .glow:hover span:nth-child(2){
+        display: none;  
+     }
+     .glow:hover span:nth-child(3){
+        display: none;  
+     }
+     .glow:hover span:nth-child(4){
+        display: none;  
+     }
+ }
+.text3{
+    font-size: larger;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-right: 1vh;
+    padding-left: 1vh;
+}
+.abt{
+    padding-top: 10vh;
+}
+.text4{
+    text-align: center;
+    padding-bottom: 5vh;
+}
+.txt1{
+    font-weight: 700;
+}
+.text5{
+    margin-left: 20vw;
+}
+.bord{
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: rgb(221, 221, 114);
+}
+.box3{
+    background-image: linear-gradient(yellow,blue);
+    padding-bottom: 4vh;
+}
+.box4{
+    padding-top: 5vh;
+}
+.txt{
+    text-align: center;
+    padding-top: 2vh;
+    color: white;
+}
+.box5{
+    /* background-color: rgba(108, 142, 216, 0.7); */
+    padding-bottom: 4vh;
+}
+.text6{
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+.text7{
+    font-weight: 900;
+}
+.bord1{
+    border: 10px solid black;
+    border-collapse: collapse;
+}
+.box6{
+    margin-left: 32.95vw;
+}
+.box7{
+    margin-left: 65.8vw;
+}
+.box8{
+    background-color: rgb(207, 26, 26,0.6);
+    padding-bottom: 2vh;
+}
+.text8{
+    padding-top: 5vh;
+    color: blue;
+}
+.text9{
+    padding-top: 6vh;
+    color: white;
+}
+.text10{
+    color: rgb(255, 255, 255,0.4);
+}
+.text11{
+    color: rgb(255, 255, 255,0.4);
+    padding-bottom: 4vh;
+}
+.box9{
+    padding-top: 2vh;
+    background-color: black;
+}
+@media screen and (max-width:1000px){
+    .box1{
+        height: 48vh;
+    }
+    .bt{
+        padding-top: 2vh;
+    }
+    .text5{
+        margin-left: auto;
+    }
+    .box5{
+        padding-bottom: 0;
+    }
+    .box6{
+        margin-left: 0;
+    }
+    .box7{
+        margin-left: 0;
+    }
+    .bord1{
+        border: 4px solid black;
+        border-collapse: collapse;
+    }
+    .text12{
+        padding-bottom: 2vh;
+        padding-top: 2vh;
+    }
+    .text13{
+        padding-bottom: 2vh;
+    }
+    .glow{
+        font-size: 10px;
+    }
+}
